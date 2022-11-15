@@ -3,11 +3,12 @@ const router = require ("express").Router();
 const controller = require("../controller/todoController")
 
 router
-   .get("/", controller.getAllTodos)
-   .get("/:id", controller.getUser)
-   .post("/",controller.createTodos)
-   .put("/:id", controller.updateTodo)
-   .delete(":/id", controller.deleteTodo);
+            .get("/", controller.getAllTodos)
+            .get("/:id", controller.getTodo)
+            .post("/",controller.createTodos)
+            .put("/:id", controller.updateTodo)
+            .delete(":/id", controller.deleteTodo)
+
 
 
 
