@@ -1,5 +1,16 @@
 const express = require ('express');
+const {json} = require("express");
+const todoRoute = require("./router/Route");
+const connect = require('./config/database');
+connect();
 const app = express();
+
+app.use(json());
+app.use("/", todoRoute);
+
+
+
+
 
 
 
