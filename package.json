@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-setup",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000z\u0000u\u0000r\u0000i\u0000-\u0000m\u0000o\u0000n\u0000g\u0000o\u0000d\u0000b\u0000\r\u0000 \u0000#\u0000 \u0000z\u0000u\u0000r\u0000i\u0000-\u0000m\u0000o\u0000n\u0000g\u0000o\u0000d\u0000b\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olathegreat/zuri-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olathegreat/zuri-mongodb/issues"
+  },
+  "homepage": "https://github.com/olathegreat/zuri-mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
